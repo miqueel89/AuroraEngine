@@ -1,0 +1,530 @@
+/* =======================================================
+   Aurora Workspace
+   ======================================================= */
+
+.workspace-screen{
+
+display:flex;
+
+height:100vh;
+
+width:100%;
+
+background:#0F172A;
+
+overflow:hidden;
+
+}
+
+.workspace-area{
+
+flex:1;
+
+display:flex;
+
+flex-direction:column;
+
+background:#111827;
+
+}
+
+
+   .workspace{
+
+    display:flex;
+
+    width:100%;
+
+    height:100vh;
+
+    overflow:hidden;
+
+    background:linear-gradient(
+        180deg,
+        #0F172A 0%,
+        #111827 100%
+    );
+
+}
+
+/* ===========================
+   Sidebar
+=========================== */
+
+.workspace-sidebar{
+
+    width:270px;
+
+    background:rgba(15,23,42,.85);
+
+    backdrop-filter:blur(25px);
+
+    border-right:1px solid rgba(255,255,255,.08);
+
+    display:flex;
+
+    flex-direction:column;
+
+    padding:30px;
+
+    box-sizing:border-box;
+
+}
+
+.sidebar-logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    font-size:1.4rem;
+
+    font-weight:700;
+
+    margin-bottom:45px;
+
+    color:white;
+
+}
+
+.sidebar-logo span{
+
+    letter-spacing:.5px;
+
+}
+
+.workspace-sidebar nav{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+}
+
+/* ===========================
+   Botones
+=========================== */
+
+.sidebar-item{
+
+    border:none;
+
+    background:none;
+
+    color:#CBD5E1;
+
+    text-align:left;
+
+    padding:14px 18px;
+
+    border-radius:14px;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+    font-size:.95rem;
+
+}
+
+.sidebar-item:hover{
+
+    background:rgba(255,255,255,.08);
+
+    color:white;
+
+    transform:translateX(4px);
+
+}
+
+.sidebar-item.active{
+
+    background:#EC4899;
+
+    color:white;
+
+    box-shadow:
+
+        0 10px 25px rgba(236,72,153,.25);
+
+}
+
+/* ===========================
+   Lado derecho
+=========================== */
+
+.workspace-right{
+
+    flex:1;
+
+    display:flex;
+
+    flex-direction:column;
+
+    overflow:hidden;
+
+}
+
+/* ===========================
+   Toolbar
+=========================== */
+
+.workspace-toolbar{
+
+    height:80px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 30px;
+
+    background:rgba(255,255,255,.04);
+
+    backdrop-filter:blur(18px);
+
+    border-bottom:1px solid rgba(255,255,255,.06);
+
+    box-sizing:border-box;
+
+}
+
+.workspace-toolbar input{
+
+    width:340px;
+
+    background:#1E293B;
+
+    border:none;
+
+    border-radius:14px;
+
+    color:white;
+
+    padding:14px 18px;
+
+    outline:none;
+
+    transition:.25s;
+
+}
+
+.workspace-toolbar input:focus{
+
+    box-shadow:
+
+        0 0 0 3px rgba(236,72,153,.3);
+
+}
+
+.toolbar-buttons{
+
+    display:flex;
+
+    gap:12px;
+
+}
+
+.toolbar-buttons button{
+
+    width:46px;
+
+    height:46px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#1E293B;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.toolbar-buttons button:hover{
+
+    transform:translateY(-2px);
+
+    background:#334155;
+
+}
+
+/* ===========================
+   Workspace
+=========================== */
+
+.workspace-main{
+
+    flex:1;
+
+    overflow:auto;
+
+    padding:35px;
+
+    box-sizing:border-box;
+
+}
+
+.workspace-empty{
+
+    width:100%;
+
+    height:100%;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    color:white;
+
+}
+
+.workspace-icon{
+
+    font-size:5rem;
+
+    margin-bottom:25px;
+
+    animation:float 5s infinite ease-in-out;
+
+}
+
+.workspace-empty h2{
+
+    font-size:2rem;
+
+    margin-bottom:12px;
+
+}
+
+.workspace-empty p{
+
+    opacity:.7;
+
+    font-size:1rem;
+
+}
+
+/* ===========================
+   Status Bar
+=========================== */
+
+.workspace-status{
+
+    height:45px;
+
+    display:flex;
+
+    justify-content:space-around;
+
+    align-items:center;
+
+    color:#CBD5E1;
+
+    font-size:.85rem;
+
+    border-top:1px solid rgba(255,255,255,.06);
+
+    background:#0F172A;
+
+}
+
+/* ===========================
+   Scroll
+=========================== */
+
+.workspace-main::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+.workspace-main::-webkit-scrollbar-thumb{
+
+    background:#334155;
+
+    border-radius:999px;
+
+}
+
+.workspace-main::-webkit-scrollbar-track{
+
+    background:transparent;
+
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media(max-width:900px){
+
+.workspace-sidebar{
+
+    width:90px;
+
+    padding:20px 10px;
+
+}
+
+.sidebar-logo span{
+
+    display:none;
+
+}
+
+.sidebar-item{
+
+    text-align:center;
+
+    padding:15px;
+
+}
+
+.workspace-toolbar input{
+
+    width:170px;
+
+}
+
+}
+
+@media(max-width:650px){
+
+.workspace{
+
+    flex-direction:column;
+
+}
+
+.workspace-sidebar{
+
+    width:100%;
+
+    height:75px;
+
+    flex-direction:row;
+
+    align-items:center;
+
+    overflow:auto;
+
+}
+
+.workspace-sidebar nav{
+
+    flex-direction:row;
+
+}
+
+.workspace-right{
+
+    flex:1;
+
+}
+
+}
+
+.workspace-grid{
+
+display:grid;
+
+grid-template-columns:320px 1fr;
+
+gap:30px;
+
+height:100%;
+
+}
+
+.note-column{
+
+background:#1E293B;
+
+border-radius:20px;
+
+padding:20px;
+
+overflow:auto;
+
+}
+
+.preview-column{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+}
+
+.note-card{
+
+padding:18px;
+
+background:#0F172A;
+
+border-radius:14px;
+
+margin-bottom:12px;
+
+cursor:pointer;
+
+transition:.25s;
+
+color:white;
+
+}
+
+.note-card:hover{
+
+transform:translateX(6px);
+
+background:#334155;
+
+}
+
+.preview-card{
+
+max-width:650px;
+
+background:white;
+
+color:#222;
+
+padding:50px;
+
+border-radius:24px;
+
+box-shadow:
+
+0 20px 60px rgba(0,0,0,.25);
+
+}
+
+.preview-heart{
+
+font-size:4rem;
+
+text-align:center;
+
+margin-bottom:25px;
+
+}

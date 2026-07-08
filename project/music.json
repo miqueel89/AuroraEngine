@@ -1,0 +1,18 @@
+[
+    {
+        "id":"001",
+        "name":"Nuestra canción",
+        "file":"001.mp3",
+        "artist":"",
+        "album":"",
+        "cover":"001.jpeg"
+    },
+    {
+        "id":"002",
+        "name":"Piano",
+        "file":"002.mp3",
+        "artist":"",
+        "album":"",
+        "cover":""
+    }
+]

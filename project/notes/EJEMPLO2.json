@@ -1,0 +1,38 @@
+{
+    "id":18,
+    "day":18,
+    "type":"capsule",
+
+    "title":"Una carta para tu yo del futuro",
+
+    "subtitle":"No la abras antes de tiempo ❤️",
+
+    "unlockDate":"2027-07-18T00:00:00+02:00",
+
+    "theme":"future",
+
+    "music":"prueba.mp3",
+
+    "image":"prueba.png",
+
+    "author":"Con todo mi amor",
+
+    "text":[
+
+        "Si estás leyendo esto significa que ha pasado exactamente un año desde que comenzaste Aurora.",
+
+        "Cuando escribí esta carta no tenía ni idea de dónde estaríamos hoy.",
+
+        "Solo esperaba seguir pudiendo llamarte cada noche, seguir riéndonos por tonterías y seguir construyendo recuerdos contigo.",
+
+        "Espero que durante este año hayas abierto cada carta con la misma ilusión con la que yo las escribí.",
+
+        "Y si algo no salió como esperábamos, también espero que esta carta consiga recordarte una cosa:",
+
+        "Elegirte fue una de las mejores decisiones de mi vida.",
+
+        "Gracias por este año entero.",
+
+        "Te quiero muchísimo."
+    ]
+}

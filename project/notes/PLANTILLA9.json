@@ -1,0 +1,17 @@
+{
+    "id":4,
+    "day":4,
+    "type":"photo",
+
+    "title":"¿Te acuerdas de este día?",
+
+    "subtitle":"Uno de mis favoritos",
+
+    "image":"004.jpg",
+
+    "text":[
+        "Cada vez que veo esta foto vuelvo exactamente a ese momento.",
+
+        "Me encanta pensar que todavía nos quedan miles de fotografías por hacer."
+    ]
+}

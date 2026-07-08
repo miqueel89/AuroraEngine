@@ -1,0 +1,17 @@
+{
+  "id": "001",
+  "day": 1,
+  "type": "letter",
+  "title": "Nuestro primer recuerdo",
+  "subtitle": "El comienzo",
+  "author": "Con todo mi cariño",
+  "text": [
+    "Primer párrafo...",
+    "Segundo párrafo..."
+  ],
+  "music": "001.mp3",
+  "image": "003.jpeg",
+  "thumbnail": "001.jpeg",
+  "tags": ["viaje", "amor"],
+  "locked": false
+}
