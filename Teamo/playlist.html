@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <header>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+        <nav class="menu" id="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="cuenta_regresiva.html">Cuenta Regresiva</a></li>
+                <li><a href="playlist.html">Playlist</a></li>
+                <li><a href="conocimos.html">Como nos conocimos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .item {
+            position: relative;
+            width: 200px;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+        .item img {
+            width: 100%;
+            border-radius: 10px;
+            transition: filter 0.3s ease-in-out;
+        }
+        .item:hover {
+            transform: scale(1.1);
+        }
+        .item:hover img {
+            filter: brightness(80%);
+        }
+        .text {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+        <h1>Playlist</h1>
+    <div class="container">
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=8cKvvmPwgP4'">
+            <img src="img/OIP.jpg" alt="Querer Querernos">
+            <div class="text">Querer Querernos - Canserbero</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=V1wlKxYX9IM'">
+            <img src="img/incondicional.jpg" alt="Babi">
+            <div class="text">Incondicional - Babi</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=NUteQQCMa_k'">
+            <img src="img/mamichula.jpg" alt="Canción 2">
+            <div class="text">Mamichula - Trueno</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=AIsaBJRZs88'">
+            <img src="img/cantandotealoido.png" alt="Canción 2">
+            <div class="text">Cantándote al Oído - KYR4, Luis Branco</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=zDcBO_RVU58'">
+            <img src="img/colegas.jpg" alt="Canción 2">
+            <div class="text">Colegas - Babi</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=Dst9gZkq1a8'">
+            <img src="img/goosebumps.png" alt="Canción 2">
+            <div class="text">Goosebumps - Travis Scott</div>
+        </div> 
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=BBAtAM7vtgc'">
+            <img src="img/bound2.png" alt="Canción 2">
+            <div class="text">Bound 2 - Kanye West</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=oP7KHC129RQ'">
+            <img src="img/obsessedwithyou.png" alt="Canción 2">
+            <div class="text">Obsessed with You - Central Cee</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=RbWUS6Gv188'">
+            <img src="img/estrellablanca.png" alt="Canción 2">
+            <div class="text">Mi Estrella Blanca - Fondo Flamenco</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=W8a4sUabCUo'">
+            <img src="img/dandelions.png" alt="Canción 2">
+            <div class="text">Dandelions - Ruth B.</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=TayD6ReJnB0'">
+            <img src="img/truelove.png" alt="Canción 2">
+            <div class="text">True Love - Saske</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=Y5j9SbyGrNg'">
+            <img src="img/sola.png" alt="Canción 2">
+            <div class="text">Sola - Delaossa</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=MldGX_mbS-o'">
+            <img src="img/mai.png" alt="Canción 2">
+            <div class="text">M.A.I - Milo J </div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=_FVccigbrIk'">
+            <img src="img/cuandosalgalaluna.jpg" alt="Canción 2">
+            <div class="text">Cuando Salga La Luna - Cano</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=rpDgBiVopiU'">
+            <img src="img/reina.png" alt="Canción 2">
+            <div class="text">Reina - Mora, Saiko</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=uU2UAEHbpOw'">
+            <img src="img/miluz.png" alt="Canción 2">
+            <div class="text">Mi Luz - Rvfv</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=v3-9eDFDAFw'">
+            <img src="img/jardin.jpg" alt="Canción 2">
+            <div class="text">Tu jardín con enanitos - Melendi</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=BBGfHp1-zl4'">
+            <img src="img/vivirsinti.jpg" alt="Canción 2">
+            <div class="text">No puedo Vivir Sin Ti - Los Ronaldos</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=q8CF5Rse72E'">
+            <img src="img/tenganmisangre.jpg" alt="Canción 2">
+            <div class="text">Tengan Mi Sangre - Dellafuente</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=3lJqoH2gmJo'">
+            <img src="img/tenganmisangre.jpg" alt="Canción 2">
+            <div class="text">Mi Mujer - El Perla, Dellafuente</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=X4epp6VHnkE'">
+            <img src="img/cero.png" alt="Canción 2">
+            <div class="text">lady madrizZz - céro</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=gaxbVfsoF6Q'">
+            <img src="img/gangstalove.png" alt="Canción 2">
+            <div class="text">REAL GANGSTA LOVE - Trueno</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=gyY5Z0TUWRY'">
+            <img src="img/ocean.png" alt="Canción 2">
+            <div class="text">Ocean - Karol G </div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=P982oehprfY'">
+            <img src="img/volando.png" alt="Canción 2">
+            <div class="text">Volando - Mora, Bad Bunny X Sech</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=t5b4wHEX37Q'">
+            <img src="img/inolvidable.png" alt="Canción 2">
+            <div class="text">Inolvidable - Ovy on the Drums</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=OXP2N2HAkbA'">
+            <img src="img/veneno.png" alt="Canción 2">
+            <div class="text">Veneno - Delaossa</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=YWl5kersybU'">
+            <img src="img/mequedocontigo.png" alt="Canción 2">
+            <div class="text">Me quedo Contigo - Los Chunguitos</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=mUBMPaj0L3o'">
+            <img src="img/rosalia.png" alt="Canción 2">
+            <div class="text">DI MI NOMBRE - Rosalia</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=wmef2TEPGgo'">
+            <img src="img/canserbero.png" alt="Canción 2">
+            <div class="text">Stupid Love Story - Canserbero</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=LjhCEhWiKXk'">
+            <img src="img/brunomars.jpg" alt="Canción 2">
+            <div class="text">Just The Way You Are - Bruno Mars</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=SA7AIQw-7Ms'">
+            <img src="img/himi.jpg" alt="Canción 2">
+            <div class="text">Him I - G-Eazy</div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=nyuo9-OjNNg'">
+            <img src="img/iwannabeyours.jpg" alt="Canción 2">
+            <div class="text">I Wanna Be Yours - Arctic Monkeys </div>
+        </div>
+        <div class="item" onclick="window.location.href='https://www.youtube.com/watch?v=2OdLntBjN3w'">
+            <img src="img/arenasmovedizas.png" alt="Canción 2">
+            <div class="text">Arenas Movedizas - Bosco Herrero</div>
+        </div>        
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
+ 
